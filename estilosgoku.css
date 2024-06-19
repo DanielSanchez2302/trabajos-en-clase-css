@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(179, 243, 61);
+}
+
+
+
+.img{
+    width: 300px;
+    height: 218px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+    filter: drop-shadow(300px);
+    color: red;
+}
+.img{
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    filter: drop-shadow(200px);
+    color: blue;
+}
+
+ h1{
+    font-size: 5em;
+    color: red;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+    background-color: crimson;
+}
+
+*{
+    background-color: blanchedalmond;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.navigation-button {
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.navigation-button:hover {
+    background-color: #0056b3;
+}
+  
+.goku{
+    display: block;
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(50px 50px 50px);
+}
+.spiderman{
+    display: block;
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(50px 50px 50px);
+}

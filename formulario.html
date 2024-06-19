@@ -1,0 +1,137 @@
+<form>
+    <br>
+        <fieldset>
+          
+        
+        
+            <form>
+              <head>
+                <link rel="stylesheet" href="formulario.css">
+                
+              </head>
+              <br>
+              <fieldset>
+              <label for="incidencia">Número de incidencia:</label>
+              <input type="text" id="incidencia" name="incidencia" value="2824003" readonly>
+              <br>
+                Nombre del cliente:
+                <input type="text" name="nombre del cliente" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü, ]+" required>
+                <br>
+                <form>
+                  <label for="documento">Tipo de Documento:</label>
+      
+                  <select id="documento" name="documento">
+                    <option value="cc">Cédula de Ciudadanía</option>
+                    <option value="ce">Cédula de Extranjería</option>
+                    <option value="ps">Pasaporte</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="ct">Carnet</option>
+                  <br>
+                  Teléfono: <input type="number" name="telefono" required>
+                  <br>
+    
+        correo: <input type="correo" name="correo" required>
+        <br>
+        Teléfono: <input type="number" name="telefono" required>
+          </form>
+        
+        <br>
+        <label for="pais">pais:</label>
+          <select id="pais" name="pais" required>
+            <option value="">seleccione su pais</option>
+            <option value="colombia">colombia</option>
+            <option value="brazil">brazil</option>
+            <option value="argentina">argentina</option>
+            <option value="españa">españa</option>
+          </select>
+          <br>
+            <label for="ciudad">Ciudad:</label>
+          <select id="ciudad" name="ciudad" required>
+            <option value="">seleccione una opcion</option>
+            <option value="bogota">Bogotá</option>
+            <option value="medellin">Medellín</option>
+            <option value="cali">Cali</option>
+            <option value="bucaramanga">Bucaramanga</option>
+          </select>
+          <br>
+    
+    <label for="medio de contacto preferido">medio de contacto preferido:</label>
+          <select id="medio de contacto preferido" name="medio de contacto preferido" required>
+            <option value="">seleccione una opcion</option>
+            <option value="correo">correo</option>
+            <option value="celular">celular</option>
+            <option value="mensajes de texto">mensajes de texto</option>
+          </select>
+         <br>
+    
+        <fieldset>
+          
+          <label for="vencimiento">fecha de vencimiento:</label>
+              <input type="text" id="vencimiento" name="vencimiento" value="27 de febrero del 2024" readonly>
+        
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" required>
+        <br>
+        
+          <label for="fecha de renovacion">Fecha de renovacion:</label>
+          <input type="date" id="fecha de renovacion" name="fecha de renovacion" required>
+        </fieldset>
+        
+        <br>
+    
+        <fieldset>
+          
+          <label>Sexo:</label>
+          <select name="sexo" required>
+            <option value="">seleccione una opcion</option>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">otro</option>
+          </select>
+        <br>
+        <label for="descripcion del reclamo">Descripción del reclamo:</label>
+      <textarea id="descripcion del reclamo" name="descripcion del reclamo" rows="5" cols="40"></textarea><br> 
+        
+          <br>
+    
+          <label>Adjuntar Archivo:</label>
+          <input type="file" name="archivo" required>
+        
+          <br>
+    
+          <form>
+    
+          
+            <label>Seleccione tipo de solicitante:</label>
+            <input type="radio" id="niño" name="solicitante" value="niño" required>
+            <label for="niño">niño</label>
+          
+            <input type="radio" id="preadolecente" name="solicitante" value="preadolecente" required>
+            <label for="preadolecente">preadolecente</label>
+          
+            <input type="radio" id="adolecente" name="solicitante" value="adolecente" required>
+            <label for="adolecente">adolecente</label>
+    
+            <input type="radio" id="adulto" name="solicitante" value="adulto" required>
+            <label for="adulto">adulto</label>
+    
+            <br>
+    
+            direccion: <input type="direccion" name="direccion" required>
+           
+            <br>
+            <label for="departemento">departemento:</label>
+            <select id="departemento" name="departemento" required>
+              <option value="">seleccione su departemento</option>
+              <option value="santander">santander</option>
+              <option value="cundinamarca">cundinamarca</option>
+              <option value="nariño">nariño</option>
+              <option value="magdalena">magdalena</option>
+            </select>
+            <br>
+          
+        
+          
+          </form>
+        
+        <input type="submit" value="Enviar">

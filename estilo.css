@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background: #f2f2f2;
+    box-shadow: 5px 5px black rgba(0,0,0,0,0.2);
+
+}
+.from_title{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+input{
+    display: block;
+}
+input[type="tex"],input[type="email"]{
+width: 100px;
+padding: 12px 5px;
+border: none;
+margin-bottom: 10px;
+outline: none;
+}
+
+    
+
+input.focus{
+    background: red;
+    color: blue;
+}
+input::placeholder{
+    color: azure;
+}
+input[type="checkbox"]:checked +label{
+    color: aqua;
+}
+ 
+.evento{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20 px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration-line: none;
+
+}
+.evento{
+padding: 50px;
+transition: 0.3s;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: slateblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+
+}
+#objetivo:target{
+    border-radius: 50px;
+    margin: auto;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 30px;
+}
+h3:not(){
+    color:steelblue;
+}

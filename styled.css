@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: salmon;
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300vh;
+}
+.container{
+    width: 450px;
+    height: 530px;
+    margin: 20px auto;
+    border: 5px solid red;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    line-height: 100px;
+}
+.static{
+    position: static;
+    top: 40;
+    left: 0;
+
+}
+.relative{
+    position: relative;
+    top: 20;
+    left: 0;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+}
